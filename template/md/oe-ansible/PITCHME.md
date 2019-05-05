@@ -76,7 +76,23 @@ ansible
 @[4](Template van dossierdata)
 @[6-19,25](Bestanden nodig door ansbile om dossierdata aan te maken)
 
-+++?code=template/src/ansible/OHO_dossierdata.yml&lang=yaml
++++
+```yamlex
+- include: tasks/controle_ansible.yaml
+
+- hosts: dossierdata
+  remote_user: root
+
+  tasks:
+  - include: tasks/OHO_user_export.yml 
+  - include: tasks/OHO_user_basis.yml
+  - include: tasks/OHO_config_status.yml
+  - include: tasks/OHO_reboot.yml
+  - include: tasks/OHO_notificatie.yml
+
+  roles:
+   - { role: users }
+```
 @title[Standaard ansible template]
 
 @[1-7](Standaard ansible-template)
