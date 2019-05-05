@@ -95,10 +95,9 @@ ansible
 ```
 @title[Standaard ansible template]
 
-@[1-7](Standaard ansible-template)
-@[8-9](Maakt users en groepen aan en voegt ssh-keys toe wordt eerst uitgevoerd)
-@[5](Zet antwoord-pagina goed voor F5-healthcheck)
-@[6-7](Laat server herstarten en nadien notificatie in RocketChat)
+@[13-14](Maakt users en groepen aan en voegt ssh-keys toe wordt eerst uitgevoerd)
+@[9](Zet antwoord-pagina goed voor F5-healthcheck)
+@[10-11](Laat server herstarten en nadien notificatie in RocketChat)
 
 
 +++?color=#36454F
