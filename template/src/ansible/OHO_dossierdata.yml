@@ -1,0 +1,15 @@
+---
+- include: tasks/controle_ansible.yaml
+
+- hosts: dossierdata
+  remote_user: root
+
+  tasks:
+  - include: tasks/OHO_user_export.yml 
+  - include: tasks/OHO_user_basis.yml
+  - include: tasks/OHO_config_status.yml
+  - include: tasks/OHO_reboot.yml
+  - include: tasks/OHO_notificatie.yml
+
+  roles:
+   - { role: users }
