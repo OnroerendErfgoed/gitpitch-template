@@ -76,7 +76,7 @@ ansible
 @[4](Template van dossierdata)
 @[6-19,25](Bestanden nodig door ansbile om dossierdata aan te maken)
 
-+++
+---
 ```yamlex
 - include: tasks/controle_ansible.yaml
 
