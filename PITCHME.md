@@ -1,4 +1,4 @@
----?color=linear-gradient(to right, #c02425, #f0cb35)
+---?color=linear-gradient(90deg, #835196 5%, #F5F6F5 95%)
 @title[Introduction]
 
 <!--
@@ -9,7 +9,7 @@ Step 3. Copy slide markdown snippets from template/md directory as needed.
 -->
 
 @snap[west text-25 text-bold text-white]
-GitPitch<br>*The Template*
+Agentschap Onroerend Erfgoed<br>Vlaanderen is erfgoed
 @snapend
 
 @snap[south-west byline text-white text-06]
