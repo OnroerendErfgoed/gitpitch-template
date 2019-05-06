@@ -26,7 +26,7 @@ Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE
 @fa[quote-left text-white](Voorbeeld dossierdata)
 @snapend
 
-@snap[midpoint span-60]
+@snap[midpoint span-40]
 ![GATEWAY](template/img/screenshot-dev-dossiers.png)
 @snapend
 
@@ -35,11 +35,11 @@ Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE
 @snapend
 
 @snap[south span-30 text-06 fragment]
-@box[rounded text-white box-overzicht](Stap 2.#Kleine aanpassingen via Ansible.)
+@box[rounded text-white box-overzicht](Stap 2.#Voorbereidingen via Ansible.)
 @snapend
 
 @snap[south-east span-30 text-06 fragment]
-@box[rounded text-white box-overzicht](Stap 3.#Deploy applicatie door Fabric.)
+@box[rounded text-white box-overzicht](Stap 3.#Deploy door Fabric.)
 @snapend
 
 ---
