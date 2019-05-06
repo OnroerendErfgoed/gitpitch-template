@@ -1,5 +1,5 @@
----?color=linear-gradient(90deg, #835196 5%, #F5F6F5 95%)
-@title[Introduction]
+---?color=linear-gradient(90deg, #835196 0%, #835196 5%, #F5F6F5 95%)
+@title[Introductie]
 
 <!--
 Tip! Get started with this template as follows:
@@ -8,42 +8,38 @@ Step 2. Start adding your own custom slide content.
 Step 3. Copy slide markdown snippets from template/md directory as needed.
 -->
 
-@snap[west text-25 text-bold]
+@snap[west text-bold]
 ### Agentschap Onroerend Erfgoed
 @fa[quote]Vlaanderen is erfgoed
 @snapend
 
-@snap[south-west byline text-04]
+@snap[south-west byline text-04 text-white]
 Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE dOMG
 @snapend
 
 ---
-@title[Slide Markdown]
+@title[Voorbeeld applicatie Dossierdata]
 
-### Each slide in this presentation is provided as a *template*.
+@snap[north span 40]
+### Deployen applicatie
+@snapend
 
-<br><br>
+@snap[midpoint span-60]
+![GATEWAY](template/img/screenshot-dev-dossierdata.png)
+@snapend
 
-@snap[south span-100 text-purple text-05]
-Reuse the *markdown snippet* for any slide in this template within your own @css[text-gold text-bold](PITCHME.md) files.
+@snap[south-west span-30 text-06 fragement]
+@box[rounded text-white box](Stap 1.#Lege server via dOMG.)
+@snapend
+
+@snap[south span-30 text-06 fragement]
+@box[rounded text-white box](Stap 2.#Kleine aanpassingen via Ansible.)
+@snapend
+
+@snap[south-east span-30 text-06 fragment]
+@box[rounded text-white box](Stap 3.#Deploy applicatie door Fabric.)
 @snapend
 
 ---
-@title[Tip! Fullscreen]
-
-![TIP](template/img/tip.png)
-<br>
-For the best viewing experience, press F for fullscreen.
-@css[template-note](We recommend using the *SPACE* key to navigate between slides.)
 
 ---?include=template/md/oe-ansible/PITCHME.md
-
-@title[The Template Docs]
-
-@snap[west sign-off]
-### Now it's your turn.
-@snapend
-
-@snap[south docslink text-gold span-100]
-For supporting documentation see the [The Template Docs](https://gitpitch.com/docs/the-template)
-@snapend
