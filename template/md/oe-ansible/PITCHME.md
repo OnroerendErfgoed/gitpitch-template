@@ -1,6 +1,19 @@
 ---
 @title[Code Presenting Templates]
 
++++?color=linear-gradient(180deg, white 50%, #E71E60 50%)
+
+@snap[north span-40 h3-black]
+
+### Dossierdata import
+@fa[quote-left quote-graphql](A query language for your API)
+
+@snapend
+
+@snap[south span-85]
+@code[yaml zoom-13 code-max code-shadow](tempate/src/ansible/OHO_dossierdata.yml)
+@snapend
+
 +++
 
 ```text
