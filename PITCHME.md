@@ -1,4 +1,4 @@
----?color=linear-gradient(100deg, #835196 50%, #F5F6F5 50%)
+---?color=linear-gradient(110deg, #835196 50%, #F5F6F5 50%)
 
 @title[Introductie]
 
@@ -14,7 +14,7 @@ Step 3. Copy slide markdown snippets from template/md directory as needed.
 @fa[quote]Vlaanderen is erfgoed
 @snapend
 
-@snap[south-west byline text-04 text-white]
+@snap[south-west byline text-04 text-dark]
 Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE dOMG
 @snapend
 
@@ -41,7 +41,5 @@ Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE
 @snap[south-east span-30 text-06 fragment]
 @box[rounded text-white box-overzicht](Stap 3.#Deploy door Fabric.)
 @snapend
-
----
 
 ---?include=template/md/oe-ansible/PITCHME.md
