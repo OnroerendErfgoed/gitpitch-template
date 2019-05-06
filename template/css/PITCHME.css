@@ -54,6 +54,10 @@
   padding-bottom: 0.8em;
 }
 
+.box-overzicht {
+  background: rgba(131,81,150,1);
+}
+
 /** Image Template Styles ***/
 
 /** Sidebox Template Styles ***/

@@ -1,7 +1,5 @@
-<!--
----?color=linear-gradient(90deg, #835196 0%, #835196 5%, #F5F6F5 95%)
--->
----
+---?color=linear-gradient(100deg, #835196 50%, #F5F6F5 50%)
+
 @title[Introductie]
 
 <!--
@@ -25,7 +23,7 @@ Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE
 
 @snap[north span 40]
 ### Deployen applicatie
-@fa[quote-left quote-graphql text-white](Voorbeeld dossierdata)
+@fa[quote-left text-white](Voorbeeld dossierdata)
 @snapend
 
 @snap[midpoint span-60]
@@ -33,15 +31,15 @@ Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE
 @snapend
 
 @snap[south-west span-30 text-06 fragment]
-@box[rounded text-white](Stap 1.#Lege server via dOMG.)
+@box[rounded text-white box-overzicht](Stap 1.#Lege server via dOMG.)
 @snapend
 
 @snap[south span-30 text-06 fragment]
-@box[rounded text-white](Stap 2.#Kleine aanpassingen via Ansible.)
+@box[rounded text-white box-overzicht](Stap 2.#Kleine aanpassingen via Ansible.)
 @snapend
 
 @snap[south-east span-30 text-06 fragment]
-@box[rounded text-white](Stap 3.#Deploy applicatie door Fabric.)
+@box[rounded text-white box-overzicht](Stap 3.#Deploy applicatie door Fabric.)
 @snapend
 
 ---
