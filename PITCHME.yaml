@@ -39,7 +39,7 @@ footnote : "GitPitch - The Fastest Way From Idea To Presentation"
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
 highlight : tomorrow # atom-one-dark
-code-line-numbers: true
+code-line-numbers: false
 
 #
 # Layout Setting
