@@ -6,12 +6,11 @@
 @snap[north span-40 h3-black]
 
 ### Dossierdata import
-@fa[quote-left quote-graphql](A query language for your API)
 
 @snapend
 
 @snap[south span-85]
-@code[yaml zoom-13 code-max code-shadow](tempate/src/ansible/OHO_dossierdata.yml)
+@box[rounded yaml code-shadow](tempate/src/ansible/OHO_dossierdata.yml)
 @snapend
 
 +++
