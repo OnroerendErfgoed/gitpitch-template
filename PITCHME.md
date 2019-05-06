@@ -8,12 +8,13 @@ Step 2. Start adding your own custom slide content.
 Step 3. Copy slide markdown snippets from template/md directory as needed.
 -->
 
-@snap[west text-25 text-bold text-white]
-Agentschap Onroerend Erfgoed<br>Vlaanderen is erfgoed
+@snap[west text-25 text-bold]
+### Agentschap Onroerend Erfgoed
+@fa[quote]Vlaanderen is erfgoed
 @snapend
 
-@snap[south-west byline text-white text-06]
-The Fastest Way From Idea To Presentation.
+@snap[south-west byline text-04]
+Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE dOMG
 @snapend
 
 ---

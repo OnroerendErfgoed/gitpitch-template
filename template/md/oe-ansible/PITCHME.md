@@ -1,4 +1,4 @@
----?image=template/img/pencils.jpg
+---
 @title[Code Presenting Templates]
 
 +++
