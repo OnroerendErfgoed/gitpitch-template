@@ -101,7 +101,7 @@ ansible
 
 
 +++?color=#36454F
-@title[Fenced Text Block]
+@title[Dossierdata folder-structuur]
 
 ```text
 .
@@ -123,9 +123,8 @@ ansible
 │   │   ├── status.nginx
 │   │   ├── supervisor_dossierdata.conf
 │   │   └── werkgebieden
-├── fabfile.py
-├── fabfile.pyc
-├── memo.py
+│   ├── fabfile.py
+│   ├── memo.py
 │   ├── schemas
 │   │   ├── 1
 │   │   ├── 2
