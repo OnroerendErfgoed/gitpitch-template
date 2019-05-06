@@ -13,7 +13,7 @@ published : true
 # Theme Setting
 # Doc: https://gitpitch.com/docs/settings/theme
 #
-theme : simple
+theme : moon
 
 #
 # Theme-Override Setting
@@ -38,7 +38,8 @@ footnote : "GitPitch - The Fastest Way From Idea To Presentation"
 # Highlight (Code) Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
-highlight : atom-one-dark
+highlight : tomorrow # atom-one-dark
+code-line-numbers: true
 
 #
 # Layout Setting
@@ -58,6 +59,6 @@ transition : none
 # Twitter Card Settings
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "GitPitch - The Quickstart Template"
+title : "Leersessie development pipeline & deployment"
 description : "High-utility markdown slide templates for GitPitch presentation authors."
 thumbnail : https://gitpitch.com/gpimg/the-template-thumb.jpg
