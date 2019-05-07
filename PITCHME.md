@@ -55,13 +55,13 @@ Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE
 @title[Toekomstvisie]
 
 ### Toekomstvisie
-+++?image=template/img/bg/black.jpg&position=right&size=50% 100% 
++++?image=template/img/bg/purple.jpg&position=right&size=50% 100% 
 @title[Toekomstvisie - Auto Deployment]
 
 @snap[east text-white span-45]
 @ol[split-screen-list text-08](false)
--In Dev automatische deploy na release versie GitHub
-- Ut enim ad minim veniam, quis exercitation
+- Koppelen Ansible en Fabric-deploy
+- Automatische deploy na release versie GitHub in Dev
 - Duis aute irure dolor in reprehenderit in voluptate
 @olend
 @snapend
