@@ -11,7 +11,7 @@ Step 3. Copy slide markdown snippets from template/md directory as needed.
 
 @snap[west text-bold]
 ### Agentschap Onroerend Erfgoed
-@fa[quote-left](Vlaanderen is erfgoed)@fa[quote-right]
+Vlaanderen is erfgoed
 @snapend
 
 @snap[south-west byline text-04 text-dark]
@@ -22,8 +22,7 @@ Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE
 @title[Voorbeeld applicatie Dossierdata]
 
 @snap[north span 40]
-### Deployen applicatie
-@fa[quote-left text-white](Voorbeeld dossierdata)
+### Deploy applicatie dossierdata
 @snapend
 
 @snap[midpoint span-40]
@@ -43,3 +42,5 @@ Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE
 @snapend
 
 ---?include=template/md/oe-ansible/PITCHME.md
+
+---?include=template/md/oe-fabric/PITCHME.md
