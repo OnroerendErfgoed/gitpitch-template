@@ -1,8 +1,11 @@
 ---
 @title[Code Presenting Templates]
 
-+++
+@snap[north span 20]
+### Folderstructuur Ansible
+@snapend
 
+@snap[south span 80]
 ```text
 ansible
 ├── ansible.cfg
@@ -75,8 +78,15 @@ ansible
 @[1-3, 6](Structuur van ansible)
 @[4](Template van dossierdata)
 @[6-19,25](Bestanden nodig door ansbile om dossierdata aan te maken)
+@snapend
 
 ---
+@title[Ansible-bestand - dossierdata]
+
+@snap[north span 40]
+### Ansible-bestand van dossierdata
+@snapend
+
 ```yamlex
 - include: tasks/controle_ansible.yaml
 
@@ -100,62 +110,5 @@ ansible
 @[10-11](Laat server herstarten en nadien notificatie in RocketChat)
 
 
-+++
-@title[Dossierdata folder-structuur]
 
-```text
-.
-├── ansible
-...
-├── dossierdata
-│   ├── config
-│   │   ├── dossierdata.nginx
-│   │   ├── nginx.nginx
-│   │   ├── process_mapping-dev.yml
-│   │   ├── process_mapping-pr.yml
-│   │   ├── process_mapping-test.yml
-│   │   ├── processen-dev.json
-│   │   ├── processen-pr.json
-│   │   ├── processen-test.json
-│   │   ├── redis.conf
-│   │   ├── regioverantwoordelijken
-│   │   ├── schema.nginx
-│   │   ├── status.nginx
-│   │   ├── supervisor_dossierdata.conf
-│   │   └── werkgebieden
-│   ├── fabfile.py
-│   ├── memo.py
-│   ├── schemas
-│   │   ├── 1
-│   │   ├── 2
-│   │   ├── 4
-│   │   ├── 5
-│   │   ├── 6
-│   │   ├── 7
-│   │   ├── common
-│   │   └── schema.json
-│   └── scripts
-│       ├── gebruikers-dev.ldif
-│       ├── gebruikers-prod.ldif
-│       ├── gebruikers-test.ldif
-│       ├── rollen.ldif
-│       ├── rollen_clear.ldif
-│       ├── rqworker
-│       ├── rqworker.sh
-│       └── systeemgebruikers.ldif
-...
-
-```
-
-@[1-3, 6](Code presenting can also be used to step through any text-based content.)
-@[4,5,7,12](Here for example we can navigate through the directory structure for this template.)
-@[12-23](We can see that this template uses GitPitch's cool modular markdown support @fa[smile-o fa-spin])
-
-@snap[north-east template-note text-white]
-Code presenting fenced text block template.
-@snapend
-
-
----?code=template/src/fabric/fabfile.py&lang=python
-@title[Fabric-bestand voor dossierdata]
 
