@@ -1,5 +1,4 @@
----?color=linear-gradient(110deg, #835196 50%, #F5F6F5 50%)
-
+---?color=linear-gradient(110deg, #7B5394 50%, #F5F5F5 50%)
 @title[Introductie]
 
 <!--
@@ -22,7 +21,7 @@ Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE
 @title[Voorbeeld applicatie Dossierdata]
 
 @snap[north span 40]
-### Deploy applicatie dossierdata
+#### Deploy applicatie dossierdata
 @snapend
 
 @snap[midpoint span-40]
