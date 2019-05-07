@@ -55,12 +55,17 @@ Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE
 @title[Toekomstvisie]
 
 ### Toekomstvisie
-+++?image=template/img/bg/black.jpg&position=right&size=50% 100% @title[Text + Image]
++++?image=template/img/bg/black.jpg&position=right&size=50% 100% 
+@title[Toekomstvisie - Auto Deployment]
 
-@snap[east text-white span-45] @olsplit-screen-list text-08
+@snap[east text-white span-45]
+@ol[split-screen-list text-08](false)
+-In Dev automatische deploy na release versie GitHub
+- Ut enim ad minim veniam, quis exercitation
+- Duis aute irure dolor in reprehenderit in voluptate
+@olend
+@snapend
 
-In Dev automatische deploy na release versie GitHub
-Ut enim ad minim veniam, quis exercitation
-Duis aute irure dolor in reprehenderit in voluptate @olend @snapend
-
-@snap[west] @imgsplit-screen-img span-55 @snapend
+@snap[west]
+@img[split-screen-img span-55](template/img/developer.jpg)
+@snapend
