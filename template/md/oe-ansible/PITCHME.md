@@ -10,7 +10,7 @@
 @snapend
 
 @snap[south span-85]
-@box[rounded yaml code-shadow](tempate/src/ansible/OHO_dossierdata.yml)
+@box[rounded yaml code-shadow](template/src/ansible/OHO_dossierdata.yml)
 @snapend
 
 +++
