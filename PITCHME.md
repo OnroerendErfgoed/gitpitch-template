@@ -40,6 +40,18 @@ Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE
 @box[rounded text-white box-overzicht](Stap 3.#Deploy door Fabric.)
 @snapend
 
----?include=template/md/oe-ansible/PITCHME.md
+---
+@title[Demo Ansible]
 
----?include=template/md/oe-fabric/PITCHME.md
+### Demo Ansible
+
+---
+
+@title[Demo Fabric]
+
+### Demo Fabric
+
+---
+@title[Toekomstvisie]
+
+### Toekomstvisie
