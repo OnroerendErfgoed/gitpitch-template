@@ -100,7 +100,7 @@ ansible
 @[10-11](Laat server herstarten en nadien notificatie in RocketChat)
 
 
-+++?color=#36454F
++++
 @title[Dossierdata folder-structuur]
 
 ```text
@@ -155,7 +155,7 @@ ansible
 Code presenting fenced text block template.
 @snapend
 
+
 ---?code=template/src/fabric/fabfile.py&lang=python
 @title[Fabric-bestand voor dossierdata]
-
 
