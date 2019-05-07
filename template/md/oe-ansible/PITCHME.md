@@ -1,18 +1,6 @@
 ---
 @title[Code Presenting Templates]
 
-+++?color=linear-gradient(180deg, white 50%, #E71E60 50%)
-
-@snap[north span-40 h3-black]
-
-### Dossierdata import
-
-@snapend
-
-@snap[south span-85]
-@box[rounded yaml code-shadow](template/src/ansible/OHO_dossierdata.yml)
-@snapend
-
 +++
 
 ```text

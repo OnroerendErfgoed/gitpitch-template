@@ -13,7 +13,7 @@ published : true
 # Theme Setting
 # Doc: https://gitpitch.com/docs/settings/theme
 #
-theme : night
+theme: white
 
 #
 # Theme-Override Setting
@@ -39,7 +39,7 @@ footnote : "GitPitch - The Fastest Way From Idea To Presentation"
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
 highlight : tomorrow # atom-one-dark
-code-line-numbers: false
+code-line-numbers: true
 
 #
 # Layout Setting
