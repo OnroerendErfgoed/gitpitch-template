@@ -1,11 +1,11 @@
 ---
 @title[Code Presenting Templates]
 
-@snap[north span 20]
+@snap[north]
 ### Folderstructuur Ansible
 @snapend
 
-@snap[south span 80]
+@snap[south]
 ```text
 ansible
 ├── ansible.cfg
