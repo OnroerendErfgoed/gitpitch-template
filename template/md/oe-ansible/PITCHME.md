@@ -1,11 +1,8 @@
 ---
 @title[Code Presenting Templates]
 
-@snap[north]
 ### Folderstructuur Ansible
-@snapend
 
-@snap[south]
 ```text
 ansible
 ├── ansible.cfg
@@ -78,7 +75,6 @@ ansible
 @[1-3, 6](Structuur van ansible)
 @[4](Template van dossierdata)
 @[6-19,25](Bestanden nodig door ansbile om dossierdata aan te maken)
-@snapend
 
 ---
 @title[Ansible-bestand - dossierdata]
