@@ -1,6 +1,4 @@
----?code=template/src/fabric/fabfile.py&lang=python&title=Fabric blabla
-@title[Fabric-bestand voor dossierdata]
-
-@[25-29](Init Spark cluster data source)
+---?code=template/src/fabric/fabfile.py&lang=python&title=Fabric bestand voor dossierdata
+@[52-64](Definitie algemene variabelen)
 @[41-53](Build RDD[AWSTask] from source)
 ---
