@@ -11,7 +11,7 @@ Step 3. Copy slide markdown snippets from template/md directory as needed.
 
 @snap[west text-bold]
 ### Agentschap Onroerend Erfgoed
-@fa[quote]Vlaanderen is erfgoed
+@fa[quote-left quote-right](Vlaanderen is erfgoed)
 @snapend
 
 @snap[south-west byline text-04 text-dark]
