@@ -1,4 +1,4 @@
----?color=linear-gradient(80deg, #7B5394 50%, #F5F5F5 50%)
+---?color=linear-gradient(70deg, #7B5394 50%, #F5F5F5 50%)
 @title[Introductie]
 
 <!--
