@@ -62,7 +62,6 @@ Presentatie Leersessie development pipeline & deployment tussen OVAM VMM VLM aOE
 @ol[split-screen-list text-08](false)
 - Koppelen Ansible en Fabric-deploy
 - Automatische deploy na release versie GitHub in Dev
-- Duis aute irure dolor in reprehenderit in voluptate
 @olend
 @snapend
 
